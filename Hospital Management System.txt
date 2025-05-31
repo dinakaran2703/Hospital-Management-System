@@ -1,0 +1,63 @@
+# Apollo Hospital Management System
+
+## Overview
+Apollo Hospital Management System is a comprehensive console-based application developed using Python and MySQL. It is designed to streamline hospital operations such as patient registration, doctor and worker details management, and data retrieval. The system features a secure login, input validation, and an intuitive menu-driven interface to facilitate efficient administration of hospital data.
+
+## Features
+- Secure login with predefined credentials.
+- Registration module for patients, doctors, and hospital workers.
+- Input validation for age and phone number (must be exactly 10 digits).
+- Complete details view for patients, doctors, and workers.
+- Search functionality to retrieve specific patient, doctor, or worker details.
+- Data persistence using MySQL database.
+- Displays current date and time in the menu for user convenience.
+
+## Technologies Used
+- Python 3.x
+- MySQL (via mysql-connector-python)
+- Console-based User Interface
+
+## Project Structure
+- `hospital_management.py`: The main Python script containing the full application code.
+- MySQL database (`apollo1`) with three tables:
+  - `patient_details`
+  - `doctor_details`
+  - `worker_details`
+
+## Installation and Setup
+1. Ensure Python 3.x is installed on your system.
+2. Install the MySQL Connector for Python:
+
+pip install mysql-connector-python
+
+3. Make sure MySQL server is installed and running on your machine.
+4. Update the MySQL connection credentials in `hospital_management.py` if necessary (host, user, password).
+5. Run the application:
+
+
+## Usage
+1. Start the application.
+2. Login using the following credentials:
+- Username: `APOLLO`
+- Password: `DINAKARAN`
+3. Use the menu to register new patients, doctors, or workers, or view existing records.
+4. Enter data carefully; phone numbers must be exactly 10 digits.
+5. Exit the program using the menu option.
+
+## Screenshots
+*(Add screenshots or demo video links here to showcase the application)*
+
+## Future Enhancements
+- Add GUI interface for better usability.
+- Implement role-based access control.
+- Expand data validation and error handling.
+- Add appointment scheduling and billing modules.
+- Integrate reporting and analytics features.
+
+## License
+This project is open-source and available for educational and personal use.
+
+---
+
+*Created by DINAKARAN
+
